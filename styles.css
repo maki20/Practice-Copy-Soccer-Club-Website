@@ -33,7 +33,7 @@
 .flex-page-list ul {
   display: flex;
   list-style: none;
-  padding: 0px 0px 0px 700px;
+  padding: 0px 0px 0px 430px;
   
 }
 
@@ -96,8 +96,7 @@ body {
   justify-content: space-evenly;
   padding: 20px;
   color: black;
-  <! -- border-bottom: double 7px #ba9f74; -->
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .CLUB-STATEMENT {
@@ -192,9 +191,8 @@ body {
 .JOIN-US {
   display: flex;
   justify-content: space-evenly;
-  padding: 20px;
+  padding: 0px;
   color: black;
-  
   padding-bottom:40px;
 }
 
@@ -392,8 +390,7 @@ h1 {
 }
 
 .twitter-timeline {
-  height: 600px;
-  width: 500px;
+  
 
 }
 
@@ -522,11 +519,12 @@ button:hover {
 @media (max-width: 768px) {
 
   .header-wrap{
+    
     top: 0px;
     left: 0px;
     width: 100%;
     background-color: white;
-    position: relative;
+    
   }
 
   .header-container {
@@ -546,7 +544,7 @@ button:hover {
   
 
 
-.flex-page-list {
+  .flex-page-list {
   color: #c6ab80;
   width: 50%;
   height: 100%;
@@ -559,6 +557,7 @@ button:hover {
   border-color: #59595a;    
   text-align: center;
   margin-left: 70px;
+  display: none;
 }
 
 .flex-page-list ul {
@@ -578,7 +577,7 @@ color: silver;
 
 
 .contents {
-  top: 550px;
+  top: 50px;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -926,6 +925,7 @@ color: silver;
 }
 
 footer{
+  top: 3500px;
   color: white;
   background-color:black;
 }
@@ -937,14 +937,19 @@ footer{
 
 }
 
+.location {
+  display: flex;
+  flex-direction: column;
+}
 
-h2 {
-  text-align: center;
+h2 h3{
+  text-align: left;
 }
 
 .google-map{
  width: 313px;
- height: 600px;
+ height: 300px;
+ padding-bottom: 50px;
 }
 
 .Links {
@@ -1001,7 +1006,7 @@ img#twitter-logo{
   border: 2px solid #ba9f74;
   width: 90%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .contact_us {
