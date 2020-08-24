@@ -302,7 +302,7 @@ body {
 
 
 
-.CLUBSTATS {
+.CLUB-STATS {
   margin-top: 20px;
   height: 115px;
   display: flex;
@@ -542,9 +542,9 @@ input.email {
 
 }
 
-input.message {
+textarea{
   width: 100%;
-  height: 130px;
+  height: 100px;
   border-radius: 7px;
   margin-bottom: 10px;
   padding: 0px;
@@ -557,7 +557,7 @@ input.message {
 
 button {
   width: 100%;
-  height: 35px;
+  height: 45px;
   color: white;
   background-color: #ba9f74;
   padding: 10px;
@@ -637,6 +637,7 @@ color: silver;
 }
 
   body {
+    width: 100%;
     
   }
 
@@ -684,7 +685,7 @@ color: silver;
   .CLUB-STATEMENT {
     background-color: #c6ab80;
     height: 380px;
-    width: 100%;
+    width: 95%;
     margin-top: 20px;
    }
    
@@ -892,7 +893,7 @@ color: silver;
 }
 
 
-.CLUBSTATS {
+.CLUB-STATS {
   align-items: center;
   height: auto;
   width: 100%;
@@ -921,13 +922,30 @@ color: silver;
  }
 
  .performance {
-
+  width: 100%;
+  height: auto;
  }
 
-.circles {
+ .circles {
   display: flex;
-  justify-content: column;
+  flex-direction:column;
+  align-items: center;
+  padding-left: 35px;
+  
+ }
 
+ a.circle{
+   padding-bottom: 10px;
+   margin-bottom: 30px;
+ }
+
+.star-icon {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  height: auto;
+  padding-top: 10px;
+  margin-bottom: 100px;
 }
 
 
@@ -994,21 +1012,27 @@ footer{
   display: flex;
   flex-direction: column;
   margin: 0px;
+  
+}
+
+h2.dome {
+  padding-left: 5px;
+}
+
+h3.dome {
+  padding-left: 5px;
 }
 
 iframe {
   margin: 0px;
-}
-
-h2 h3{
-  text-align: left;
+ 
 }
 
 .google-map{
  width: 100%;
  height: 300px;
  padding-bottom: 50px;
- margin: 0px;
+ margin: 0px 0px 30px 0px;
 }
 
 .Links {
@@ -1028,7 +1052,7 @@ h2 h3{
   list-style: none;
   font-size: 15px;
   padding: 0px;
-  width: 100%;
+  width: 107%;
 }  
 
 
@@ -1038,26 +1062,32 @@ h2 h3{
   margin-bottom: 10px;
   background-color: #ba9f74;
   border: 1px solid #ba9f74;
-  height: 20px;
+  height: 50px;
   text-align: center;
 
 }
 
 .club_identity {
+  width: 100%;
+  height: auto;
+}
+
+h2.wolvesway {
+  padding-right: 10px;
 }
 
 .sns-logo {
   text-align: right;
   color:inherit;
-  padding: 40px 10px;
   display: flex;
-  justify-content: flex-end;
-
+  justify-content: flex-end; 
+  width: auto;
 }
 
 img#twitter-logo{
   height: 45px;
-  width: 45px;
+  width: 50px;
+  margin-left: 5px;
 }
 
 
@@ -1068,8 +1098,8 @@ img#twitter-logo{
   justify-content: flex-end;
 }
 
-.contact_us {
-
+h2.contact-us {
+    padding-right: 10px;
 }
 
 
@@ -1078,29 +1108,29 @@ form {
   
 }
 
-h3 {
-  text-align: right;
+h3.email {
+    padding-right: 10px;
 }
+
 
 input.email {
   width:100%;
   height: 34px;
   border-radius: 7px;
-  padding: 0px;
+  padding-right: 10px;
 
 }
 
-input.message {
+h3.your-message {
+  padding-right: 10px;
+}
+
+textarea {
   width: 100%;
   height: 130px;
   border-radius: 7px;
   margin-bottom: 10px;
   padding: 0px;
-}
-
-.message::placeholder {
-  text-align: left;
-  position: relative;
 }
 
 button {
@@ -1109,15 +1139,17 @@ button {
   color: white;
   background-color: #ba9f74;
   padding: 10px;
+  margin-bottom: 70px;
 }
 
 button:hover {
   cursor: pointer;
   color: black;
+  
 }
 
 
-}
+
 
 @media (min-width: 992px) {
   body {
