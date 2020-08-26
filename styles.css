@@ -39,7 +39,7 @@
 .flex-page-list ul {
   display: flex;
   list-style: none;
-  padding: 0px 0px 0px 700px;
+  padding: 0px 0px 0px 450px;
   
 }
 
@@ -133,6 +133,7 @@ body {
 
 .INTERESTED upper-box {
   height: 190px;
+  
 }
 
 .INTERESTED img {
@@ -147,12 +148,18 @@ body {
 .lower-box-title {
   height: 150px;
   font-size: 33px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .lower-box-sub {
   height: 40px;
   font-size: 17px;
   text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .MLS-ACADEMY-LEAGUE {
@@ -177,8 +184,17 @@ body {
 }
 
 .lower-box-title-2 {
-  height: 150px;
+  height: 110px;
   font-size: 33px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.lower-box-sub {
+  height: 80px;
+  font-size: 17px;
+  text-align: center;
 }
 
 
@@ -224,12 +240,15 @@ body {
 }
 
 .lower-box-title {
-  height: 110px;
+  height: 90px;
   font-size: 33px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .lower-box-sub {
-  height: 80px;
+  height: 100px;
   font-size: 17px;
   text-align: center;
 }
@@ -256,12 +275,15 @@ body {
 }
 
 .lower-box-title {
-  height: 110px;
+  height: 90px;
   font-size: 33px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .lower-box-sub {
-  height: 80px;
+  height: 100px;
   font-size: 14px;
   text-align: center;
 }
@@ -304,7 +326,7 @@ body {
 
 .CLUB-STATS {
   margin-top: 20px;
-  height: 115px;
+  height: 45px;
   display: flex;
   justify-content: space-around;
 }
@@ -358,7 +380,7 @@ span.fl-heading-text {
 .circles{
   display: flex;
   justify-content:flex-start;
-  padding-left: 500px;
+  padding-left: 260px;
   
 }
 
