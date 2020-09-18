@@ -38,12 +38,27 @@
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0" nonce="HNu7dMdx"></script>
 
-<div class="wrap-slides">
+<div class="slideshow-container">
 
    <!-- slides of images -->
-<div class="slides">
-   <img src="./Assets/Player-Pathway.png" height="600" width="1180">
+<div class="mySlides">
+  <img src="./Assets/Player-Pathway.png" height="600" width="1180">
 </div>
+
+<div class="mySlides">
+  <img src="./Assets/COACHING-ASSIGNMENTS.png" height="600" width="1180">
+</div>
+
+<div class="mySlides">
+   <img src="./Assets/JOIN-US.png" height="600" width="1180">
+</div>  
+
+<div class="mySlides">
+   <img src="./Assets/MLS-Academy-League.png" height="600" width="1180"> 
+</div>
+ 
+ <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+ <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
 </div>  
 
@@ -191,6 +206,35 @@
   </div>
 
 </div>
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n){
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n){
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n){
+    var i;
+    var slides = document.getElementsByClassName('mySlides');
+    if (n > slides.length)(slideIndex = 1)
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+     slides[slideIndex-1].style.display = "block";
+     
+
+  }
+
+
+
+</script>
 
    
 </body>
