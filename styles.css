@@ -36,6 +36,10 @@
     border-color: #59595a;    
 }
 
+span {
+  display: none;
+}
+
 .flex-page-list ul {
   display: flex;
   list-style: none;
@@ -712,6 +716,19 @@ button:hover {
   display: none;
 }
 
+span {
+  color: black;
+  display: flex;
+  background-color: #EEEEEE;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  margin: 20px;
+  width: 26%;
+  height: 35px;
+}
+
 .flex-page-list ul {
   display: flex;
   flex-direction: column;
@@ -734,6 +751,14 @@ color: silver;
   display: flex;
   flex-direction: column;
   padding: 20px 0px;
+}
+
+.slideshow-container {
+  margin-left: 18px;
+}
+
+.mySlides {
+ 
 }
 
   body {
