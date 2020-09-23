@@ -30,7 +30,7 @@
   <li>ALUMNI</li>
  </ul>
 </div>
-　<p></p><span>Menu</span></p>
+　<div class="menu">Menu</div>
 
 </div>
 
@@ -232,6 +232,22 @@
      
 
   }
+
+  $(function() {
+   $(".menu").on("click", function(){
+     if ($(this).hasClass("active")){
+       $(this).removeClass("active");
+       $(".flex-page-list")
+        .addClass("close")
+        .removeClass("open");
+     } else {
+       $(this).addClass("active");
+       $(".flex-page-list")
+        .addClass("open")
+        .removeClass("close");
+     }
+   });
+  });
 
 
 
