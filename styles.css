@@ -518,16 +518,16 @@ a.circle {
 
 footer{
   color: white;
-  background-image: url(/Assets/Goal\,sunset.jpg);
-  background-color:rgba(198,171,128,0.66);
-  background-repeat: no-repeat;
+  background-image:linear-gradient(rgba(45, 42, 39, 0.79), rgba(45, 42, 39, 0.79)),url(/Assets/Goal\,sunset.jpg);
+  /*background-color:rgba(198,171,128,0.66);*/
+  /*background-repeat: no-repeat;*/
   background-size: 2200px 793px;
   background-attachment: scroll;
-  position: relative;
+  background-position: center;
 }
 
 
-.footer::after {
+/*.footer::after {
   color: rgba(198,171,128,0.66);
   content: '';
   display: block;
@@ -537,7 +537,7 @@ footer{
   bottom: 0;
   left: 0;
   z-index: 0;
-}
+}*/
 
 
 
