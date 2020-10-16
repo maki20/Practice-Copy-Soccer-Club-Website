@@ -1075,12 +1075,12 @@ color: silver;
 
 
  .SOCIAL {
-  align-items: center;
+  
   height: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  
  }
  
  .left-border {
@@ -1107,7 +1107,11 @@ color: silver;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  
+  
+}
+
+.fb-page {
   
 }
 
